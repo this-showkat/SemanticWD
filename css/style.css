@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a, a:hover, a:focus{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+.title {
+    background: #f1f1f1;
+    padding-bottom: 60px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0b2d71;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.button{
+    text-align: center;
+}
+
+.button a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #0066b2;
+    padding: 12px 22px;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+.button a:hover{
+    background: #009dd9;
+}
+
+/* ************************************************************************
+                            Menubar css start
+************************************************************************ */
+nav ul li {
+    margin-top: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-right: 40px;
+    position: relative;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+nav ul li a:after{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .6s;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+nav ul li .active:after{
+    width: 100%;
+}
+
+nav .navbar-brand {
+    width: 70%;
+    margin-top: -23px;
+    margin-left: 20px;
+}
+
+nav .navbar-brand:hover::after{
+    width: 0;
+}
+
+nav .navbar-brand img{
+    width: 65%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+}
+
+nav .icon i:before{
+    display: block;
+    text-align: center;
+}
+
+nav .icon .search {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+/* ************************************************************************
+                            Menubar css end
+************************************************************************ */
+/* ************************************************************************
+                            Banner css start
+************************************************************************ */
+#banner-part{
+    background: url(../images/calbio-homepage-hero.png) no-repeat center;
+    background-size: center;
+}
+
+#banner-part .text{
+    text-align: right;
+    color: #fff;
+    width: 515px;
+    margin-left: auto;
+    padding-top: 210px;
+    padding-bottom: 150px;
+}
+
+#banner-part .text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#banner-part .text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#banner-part .text .plain {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner-part .text .plain a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+}
+
+#banner-part .text .plain a:after{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .6s;
+}
+
+#banner-part .text .plain a:hover:after{
+    width: 100%;
+}
+
+#banner-part .text .plain:hover i{
+    color: #6fd3fa;
+    transform: translateX(3px);
+}
+
+#banner-part .text .plain i{
+    font-size: 13px;
+    transition: .4s;
+}
+
+/* ************************************************************************
+                            Banner css end
+************************************************************************ */
+/* ************************************************************************
+                       Picture-part css start
+************************************************************************ */
+#picture-part {
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+
+#picture-part .img{
+    overflow: hidden;
+}
+
+#picture-part .img img{
+    width: 100%;
+    transition: .4s;
+}
+
+#picture-part .img:hover img{
+    transform: scale(1.1);
+}
+
+#picture-part .text{
+    text-align: center;
+}
+
+#picture-part .text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0b2d71;
+    margin-top: 20px;
+    position: relative;
+}
+
+#picture-part .text h2:after{
+    position: absolute;
+    bottom: -5px;
+    left: 20%;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .5s;
+}
+
+#picture-part .text h2:hover:after{
+    width: 60%;
+}
+
+#picture-part .text .two:after{
+    left: 14%;
+}
+
+#picture-part .text .two:hover:after{
+    width: 72%;
+}
+
+#picture-part .text .plain{
+    margin-top: 20px;
+}
+
+#picture-part .text .plain a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0066b2;
+    position: relative;
+}
+
+#picture-part .text .plain a:after{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .6s;
+}
+
+#picture-part .text .plain a:hover:after{
+    width: 100%;
+}
+
+#picture-part .text .plain:hover i{
+    color: #6fd3fa;
+    transform: translateX(3px);
+}
+
+#picture-part .text .plain i{
+    font-size: 13px;
+    color: #0066b2;
+    transition: .4s;
+}
+/* ************************************************************************
+                        Picture-part css end
+/* ********************************************************************* */
+/* ************************************************************************
+                        News-part css start
+/* ********************************************************************* */
+#news-part{
+    background: #009dd9;
+}
+
+#news-part h1{
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#news-part .news-item-one{
+    /* background: #009dd9; */
+    transition: .4s;
+}
+
+#news-part .news-item-one:hover{
+    background: #0b2d71;
+}
+
+#news-part .news-item-one:hover h3{
+    color: #fff;
+}
+
+#news-part .news-one{
+    width: 625px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border-bottom: 1px solid #0b2d71;
+}
+
+#news-part .news-one h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0b2d71;
+    text-transform: capitalize;
+}
+
+#news-part .news-one h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+
+#news-part .news-one p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#news-part .border-none{
+    border-bottom: none;
+}
+
+#news-part .button{
+    padding-bottom: 80px;
+}
+
+#news-part .button a:hover{
+    background: #0b2d71;
+}
+/* ************************************************************************
+                        News-part css end
+/* ********************************************************************* */
+/* ************************************************************************
+                        News-part css end
+/* ********************************************************************* */
+#video-part{
+    background: #f1f1f1;  
+    padding-bottom: 100px; 
+}
+#video-part h1{
+    width: 645px;
+}
+
+#video-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    width: 660px;
+    margin: 25px auto;
+}
+
+#video-part .img img{
+    width: 100%;
+}
+
+#video-part .img{
+    position: relative;
+    transition: .4s;
+}
+
+#video-part .img i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 150px;
+    font-size: 35px;
+}
+
+#video-part .img:hover i{
+    color: #bfc1c0;
+}
+
+#video-part .plain{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#video-part .plain a{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0066b2;
+    position: relative;
+}
+
+#video-part .plain a:after{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .6s;
+}
+
+#video-part .plain a:hover:after{
+    width: 100%;
+}
+#video-part .plain:hover i{
+    color: #6fd3fa;
+    transform: translateX(3px);
+}
+
+#video-part .plain i{
+    font-size: 13px;
+    color: #0066b2;
+    transition: .4s;
+}
+/* ************************************************************************
+                        News-part css end
+/* ********************************************************************* */
+/* ************************************************************************
+                        accordian-part css start
+/* ********************************************************************* */
+.accordion {
+    background: #f1f1f1;
+}
+
+.accordion .container{
+    width: 800px;
+}
+
+.accordion h3{
+    color: #0b2d71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion .button{
+    padding-bottom: 100px;
+}
+
+.accordion .card{
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+    border-bottom: 1px solid #0066b2;
+}
+
+.accordion .card .btn-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    color: #0066b2;
+    padding: 0;
+}
+
+.btn-link.focus, .btn-link:focus{
+    text-decoration: none;
+}
+
+.accordion .card-header{
+    border-bottom: 0;
+    background-color: #f1f1f1;
+    padding: 20px 15px;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
+
+.card-body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding: 25px;
+    width: 820px;
+    margin-left: -20px;
+}
+/* ************************************************************************
+                        accordian-part css end
+/* ********************************************************************* */
+/* ************************************************************************
+                        form-part css start
+/* ********************************************************************* */
+form{
+    text-align: center;
+    background: #f1f1f1;
+}
+
+form .container{
+    width: 800px;
+}
+
+form input{
+    outline: 0;
+    border: 0;
+    width: 687px;
+    padding: 30px;
+    margin-left: 13px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 2px 1px -1px rgba(0,0,0,.04), 0 1px 3px 0 rgba(0,0,0,.08);
+}
+
+form .find{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+form .find::placeholder{
+    color:  #0066b2;
+}
+
+form button{
+    background: #fff;
+    outline: 0;
+    border: 0;
+    padding: 20px;
+    margin-left: -5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 2px 1px -1px rgba(0,0,0,.04), 0 1px 3px 0 rgba(0,0,0,.08);
+}
+
+form button:focus{
+    outline: 0;
+}
+
+form button i{
+    color: #0066b2;
+}
+
+form button .search{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0066b2;
+    line-height: 0;
+    margin-top: 15px;
+}
+/* ************************************************************************
+                        form-part css end
+/* ********************************************************************* */
+/* ************************************************************************
+                        Plan-part css start
+/* ********************************************************************* */
+#plan-part{
+    background: #f1f1f1;
+    padding-top: 50px;
+}
+
+#plan-part .container{
+    width: 800px;
+}
+
+#plan-part .plan{
+    text-align: center;
+}
+
+#plan-part .customer{
+    padding: 60px;
+    background: #fff;
+    transition: .4s;
+}
+
+#plan-part .customer:hover{
+    background:#0066b2;
+}
+
+#plan-part .customer:hover h2{
+    color: #f1f1f1;
+}
+
+#plan-part .customer:hover a{
+    color: #fff;
+}
+
+#plan-part .customer:hover i{
+    color: #fff;
+}
+
+#plan-part .customer h2{
+    color: #0b2d71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid #0b2d71;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+
+#plan-part .customer ul li{
+    padding: 20px 0;
+    border-bottom: 1px solid  #0b2d71;
+}
+
+#plan-part .customer ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0066b2;
+    position: relative;
+}
+
+#plan-part .customer ul li a:after{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .4s;
+}
+
+#plan-part .customer ul li a:hover:after{
+    width: 100%;
+}
+
+#plan-part .customer ul li i{
+    position: absolute;
+    right: 20%;
+    color: #0066b2;
+    line-height: 1.5;
+}
+/* ************************************************************************
+                        Plan-part css end
+/* ********************************************************************* */
+#title-part .title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0b2d71;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#title-part .title h1{
+    padding-top: 0;
+}
+/* ************************************************************************
+                        footer-part css start
+/* ********************************************************************* */
+#footer-part{
+    background: #0b2d71;
+    color: #fff;
+}
+
+#footer-part .logo{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#footer-part .logo p{
+    width: 640px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer-part .part-two{
+    padding: 65px 60px 40px;
+}
+
+#footer-part .part-two .part-left h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#footer-part .part-two .part-left ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+#footer-part .part-two .part-left ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+#footer-part .part-two .part-left ul li a:after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: "";
+    transition: .5s;
+}
+
+#footer-part .part-two .part-left ul li a:hover:after{
+    background: #0066b2;
+}
+
+#footer-part .part-two .part-right{
+    text-align: right;
+}
+
+#footer-part .part-two .part-right h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#footer-part .part-two .part-right i{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+#footer-part .part-two .part-right i:hover{
+    color: #0066b2;;
+}
+
+#footer-part .part-three{
+    text-align: center;
+    padding: 15px 0;
+}
+
+#footer-part .part-three p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#footer-part .part-three .copyright{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#footer-part .part-three ul{
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+#footer-part .part-three ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#footer-part .part-three ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+#footer-part .part-three ul li a:after{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #0066b2;
+    content: "";
+    transition: .5s;
+}
+
+#footer-part .part-three ul li a:hover:after{
+    width: 100%;
+}
+
+#footer-part .part-three .middle{
+    display: inline-block;
+}
+/* ************************************************************************
+                        footer-part css end
+/* ********************************************************************* */
