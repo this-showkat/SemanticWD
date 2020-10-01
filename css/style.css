@@ -57,6 +57,72 @@ h1{
 nav ul li {
     margin-top: 20px;
 }
+/* **************************************DROPDOWN1 START**************************************** */
+navbar{
+    position: relative;
+}
+nav ul li .portfolio-list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f1f1f1;
+    width: 100%;
+    padding-bottom: 50px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+nav ul li:hover .portfolio-list{
+    visibility: visible;
+    opacity: 1;
+}
+nav ul li .portfolio-list .port-one h1{
+    font-size: 42px;
+    text-align: left;
+    text-transform: capitalize;
+}
+nav ul li .portfolio-list .port-one p{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav ul li .portfolio-list .port-one .button{
+    text-align: left;
+}
+nav ul li .portfolio-list .port-one .button a:hover{
+    background: #0066b2;
+    color: #fff;
+}
+nav ul li .portfolio-list .port-one .button a:after{
+    display: none;
+}
+nav ul li .portfolio-list .port-two h1{
+    font-size: 24px;
+    text-align: left;
+    text-transform: capitalize;
+}
+nav ul li .portfolio-list .port-three h1{
+    font-size: 24px;
+    text-align: left;
+    text-transform: capitalize;
+    width: 200px;
+    margin: 0;
+}
+nav ul li .portfolio-list ul li a{
+    color: #0066b2;
+}
+nav ul li .portfolio-list i{
+    color: #0066b2;
+    margin-left: -35px;
+    font-size: 15px;
+    transition: .4s;
+}
+nav ul li .portfolio-list ul li:hover i{
+    margin-left: -30px;
+}
+/* **************************************DROPDOWN1 END**************************************** */
 
 nav ul li a {
     display: inline-block;
