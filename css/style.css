@@ -1,17 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
     list-style: none;
 }
 
-a, a:hover, a:focus{
+a,
+a:hover,
+a:focus {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -20,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding-bottom: 60px;
 }
 
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -31,11 +41,11 @@ h1{
     padding-top: 50px;
 }
 
-.button{
+.button {
     text-align: center;
 }
 
-.button a{
+.button a {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -47,7 +57,7 @@ h1{
     transition: .4s;
 }
 
-.button a:hover{
+.button a:hover {
     background: #009dd9;
 }
 
@@ -57,71 +67,85 @@ h1{
 nav ul li {
     margin-top: 20px;
 }
+
 /* **************************************DROPDOWN1 START**************************************** */
-navbar{
+navbar {
     position: relative;
 }
-nav ul li .portfolio-list{
+
+nav ul li .portfolio-list {
     position: absolute;
     top: 100%;
     left: 0;
     background: #f1f1f1;
     width: 100%;
     padding-bottom: 50px;
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
     visibility: hidden;
     opacity: 0;
     transition: .4s;
 }
-nav ul li:hover .portfolio-list{
+
+nav ul li:hover .portfolio-list {
     visibility: visible;
     opacity: 1;
 }
-nav ul li .portfolio-list .port-one h1{
+
+nav ul li .portfolio-list .port-one h1 {
     font-size: 42px;
     text-align: left;
     text-transform: capitalize;
 }
-nav ul li .portfolio-list .port-one p{
+
+nav ul li .portfolio-list .port-one p {
     margin-top: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
-nav ul li .portfolio-list .port-one .button{
+
+nav ul li .portfolio-list .port-one .button {
     text-align: left;
 }
-nav ul li .portfolio-list .port-one .button a:hover{
+
+nav ul li .portfolio-list .port-one .button a:hover {
     background: #0066b2;
     color: #fff;
 }
-nav ul li .portfolio-list .port-one .button a:after{
+
+nav ul li .portfolio-list .port-one .button a:after {
     display: none;
 }
-nav ul li .portfolio-list .port-two h1{
+
+nav ul li .portfolio-list .port-two h1 {
     font-size: 24px;
     text-align: left;
     text-transform: capitalize;
 }
-nav ul li .portfolio-list .port-three h1{
+
+nav ul li .portfolio-list .port-three h1 {
     font-size: 24px;
     text-align: left;
     text-transform: capitalize;
     width: 200px;
     margin: 0;
 }
-nav ul li .portfolio-list ul li a{
+
+nav ul li .portfolio-list ul li a {
     color: #0066b2;
 }
-nav ul li .portfolio-list i{
+
+nav ul li .portfolio-list i {
     color: #0066b2;
     margin-left: -35px;
     font-size: 15px;
     transition: .4s;
 }
-nav ul li .portfolio-list ul li:hover i{
+
+nav ul li .portfolio-list ul li:hover i {
     margin-left: -30px;
 }
+
 /* **************************************DROPDOWN1 END**************************************** */
 
 nav ul li a {
@@ -135,11 +159,11 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #000;
 }
 
-nav ul li a:after{
+nav ul li a:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -150,11 +174,11 @@ nav ul li a:after{
     transition: .6s;
 }
 
-nav ul li a:hover:after{
+nav ul li a:hover:after {
     width: 100%;
 }
 
-nav ul li .active:after{
+nav ul li .active:after {
     width: 100%;
 }
 
@@ -164,19 +188,19 @@ nav .navbar-brand {
     margin-left: 20px;
 }
 
-nav .navbar-brand:hover::after{
+nav .navbar-brand:hover::after {
     width: 0;
 }
 
-nav .navbar-brand img{
+nav .navbar-brand img {
     width: 65%;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{
+.navbar-expand-lg .navbar-nav .nav-link {
     padding: 0;
 }
 
-nav .icon i:before{
+nav .icon i:before {
     display: block;
     text-align: center;
 }
@@ -196,12 +220,12 @@ nav .icon .search {
 /* ************************************************************************
                             Banner css start
 ************************************************************************ */
-#banner-part{
+#banner-part {
     background: url(../images/calbio-homepage-hero.png) no-repeat center;
     background-size: center;
 }
 
-#banner-part .text{
+#banner-part .text {
     text-align: right;
     color: #fff;
     width: 515px;
@@ -210,14 +234,14 @@ nav .icon .search {
     padding-bottom: 150px;
 }
 
-#banner-part .text h3{
+#banner-part .text h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
 
-#banner-part .text h2{
+#banner-part .text h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     font-weight: 600;
@@ -229,7 +253,7 @@ nav .icon .search {
     margin-top: 20px;
 }
 
-#banner-part .text .plain a{
+#banner-part .text .plain a {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -238,7 +262,7 @@ nav .icon .search {
     position: relative;
 }
 
-#banner-part .text .plain a:after{
+#banner-part .text .plain a:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -249,16 +273,16 @@ nav .icon .search {
     transition: .6s;
 }
 
-#banner-part .text .plain a:hover:after{
+#banner-part .text .plain a:hover:after {
     width: 100%;
 }
 
-#banner-part .text .plain:hover i{
+#banner-part .text .plain:hover i {
     color: #6fd3fa;
     transform: translateX(3px);
 }
 
-#banner-part .text .plain i{
+#banner-part .text .plain i {
     font-size: 13px;
     transition: .4s;
 }
@@ -274,24 +298,24 @@ nav .icon .search {
     padding: 100px 0;
 }
 
-#picture-part .img{
+#picture-part .img {
     overflow: hidden;
 }
 
-#picture-part .img img{
+#picture-part .img img {
     width: 100%;
     transition: .4s;
 }
 
-#picture-part .img:hover img{
+#picture-part .img:hover img {
     transform: scale(1.1);
 }
 
-#picture-part .text{
+#picture-part .text {
     text-align: center;
 }
 
-#picture-part .text h2{
+#picture-part .text h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -300,7 +324,7 @@ nav .icon .search {
     position: relative;
 }
 
-#picture-part .text h2:after{
+#picture-part .text h2:after {
     position: absolute;
     bottom: -5px;
     left: 20%;
@@ -311,23 +335,23 @@ nav .icon .search {
     transition: .5s;
 }
 
-#picture-part .text h2:hover:after{
+#picture-part .text h2:hover:after {
     width: 60%;
 }
 
-#picture-part .text .two:after{
+#picture-part .text .two:after {
     left: 14%;
 }
 
-#picture-part .text .two:hover:after{
+#picture-part .text .two:hover:after {
     width: 72%;
 }
 
-#picture-part .text .plain{
+#picture-part .text .plain {
     margin-top: 20px;
 }
 
-#picture-part .text .plain a{
+#picture-part .text .plain a {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -336,7 +360,7 @@ nav .icon .search {
     position: relative;
 }
 
-#picture-part .text .plain a:after{
+#picture-part .text .plain a:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -347,57 +371,58 @@ nav .icon .search {
     transition: .6s;
 }
 
-#picture-part .text .plain a:hover:after{
+#picture-part .text .plain a:hover:after {
     width: 100%;
 }
 
-#picture-part .text .plain:hover i{
+#picture-part .text .plain:hover i {
     color: #6fd3fa;
     transform: translateX(3px);
 }
 
-#picture-part .text .plain i{
+#picture-part .text .plain i {
     font-size: 13px;
     color: #0066b2;
     transition: .4s;
 }
+
 /* ************************************************************************
                         Picture-part css end
 /* ********************************************************************* */
 /* ************************************************************************
                         News-part css start
 /* ********************************************************************* */
-#news-part{
+#news-part {
     background: #009dd9;
 }
 
-#news-part h1{
+#news-part h1 {
     color: #fff;
     padding-top: 80px;
     padding-bottom: 30px;
 }
 
-#news-part .news-item-one{
+#news-part .news-item-one {
     /* background: #009dd9; */
     transition: .4s;
 }
 
-#news-part .news-item-one:hover{
+#news-part .news-item-one:hover {
     background: #0b2d71;
 }
 
-#news-part .news-item-one:hover h3{
+#news-part .news-item-one:hover h3 {
     color: #fff;
 }
 
-#news-part .news-one{
+#news-part .news-one {
     width: 625px;
     margin: 0 auto;
     padding: 40px 20px;
     border-bottom: 1px solid #0b2d71;
 }
 
-#news-part .news-one h3{
+#news-part .news-one h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -405,7 +430,7 @@ nav .icon .search {
     text-transform: capitalize;
 }
 
-#news-part .news-one h2{
+#news-part .news-one h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -414,39 +439,41 @@ nav .icon .search {
     margin: 15px 0;
 }
 
-#news-part .news-one p{
+#news-part .news-one p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
 }
 
-#news-part .border-none{
+#news-part .border-none {
     border-bottom: none;
 }
 
-#news-part .button{
+#news-part .button {
     padding-bottom: 80px;
 }
 
-#news-part .button a:hover{
+#news-part .button a:hover {
     background: #0b2d71;
 }
+
 /* ************************************************************************
                         News-part css end
 /* ********************************************************************* */
 /* ************************************************************************
                         News-part css end
 /* ********************************************************************* */
-#video-part{
-    background: #f1f1f1;  
-    padding-bottom: 100px; 
+#video-part {
+    background: #f1f1f1;
+    padding-bottom: 100px;
 }
-#video-part h1{
+
+#video-part h1 {
     width: 645px;
 }
 
-#video-part p{
+#video-part p {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -456,16 +483,16 @@ nav .icon .search {
     margin: 25px auto;
 }
 
-#video-part .img img{
+#video-part .img img {
     width: 100%;
 }
 
-#video-part .img{
+#video-part .img {
     position: relative;
     transition: .4s;
 }
 
-#video-part .img i{
+#video-part .img i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -481,16 +508,16 @@ nav .icon .search {
     font-size: 35px;
 }
 
-#video-part .img:hover i{
+#video-part .img:hover i {
     color: #bfc1c0;
 }
 
-#video-part .plain{
+#video-part .plain {
     margin-top: 20px;
     text-align: center;
 }
 
-#video-part .plain a{
+#video-part .plain a {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -499,7 +526,7 @@ nav .icon .search {
     position: relative;
 }
 
-#video-part .plain a:after{
+#video-part .plain a:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -510,19 +537,21 @@ nav .icon .search {
     transition: .6s;
 }
 
-#video-part .plain a:hover:after{
+#video-part .plain a:hover:after {
     width: 100%;
 }
-#video-part .plain:hover i{
+
+#video-part .plain:hover i {
     color: #6fd3fa;
     transform: translateX(3px);
 }
 
-#video-part .plain i{
+#video-part .plain i {
     font-size: 13px;
     color: #0066b2;
     transition: .4s;
 }
+
 /* ************************************************************************
                         News-part css end
 /* ********************************************************************* */
@@ -533,11 +562,11 @@ nav .icon .search {
     background: #f1f1f1;
 }
 
-.accordion .container{
+.accordion .container {
     width: 800px;
 }
 
-.accordion h3{
+.accordion h3 {
     color: #0b2d71;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
@@ -545,18 +574,18 @@ nav .icon .search {
     text-align: center;
 }
 
-.accordion .button{
+.accordion .button {
     padding-bottom: 100px;
 }
 
-.accordion .card{
+.accordion .card {
     border: 0;
     border-radius: 0;
     background: #f1f1f1;
     border-bottom: 1px solid #0066b2;
 }
 
-.accordion .card .btn-link{
+.accordion .card .btn-link {
     font-family: 'Open Sans', sans-serif;
     font-size: 66px;
     font-weight: 700;
@@ -564,25 +593,27 @@ nav .icon .search {
     padding: 0;
 }
 
-.btn-link.focus, .btn-link:focus{
+.btn-link.focus,
+.btn-link:focus {
     text-decoration: none;
 }
 
-.accordion .card-header{
+.accordion .card-header {
     border-bottom: 0;
     background-color: #f1f1f1;
     padding: 20px 15px;
 }
 
-.btn-link:hover{
+.btn-link:hover {
     text-decoration: none;
 }
 
-.btn.focus, .btn:focus{
+.btn.focus,
+.btn:focus {
     box-shadow: none;
 }
 
-.card-body{
+.card-body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -592,58 +623,59 @@ nav .icon .search {
     width: 820px;
     margin-left: -20px;
 }
+
 /* ************************************************************************
                         accordian-part css end
 /* ********************************************************************* */
 /* ************************************************************************
                         form-part css start
 /* ********************************************************************* */
-form{
+form {
     text-align: center;
     background: #f1f1f1;
 }
 
-form .container{
+form .container {
     width: 800px;
 }
 
-form input{
+form input {
     outline: 0;
     border: 0;
     width: 687px;
     padding: 30px;
     margin-left: 13px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 2px 1px -1px rgba(0,0,0,.04), 0 1px 3px 0 rgba(0,0,0,.08);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1), 0 2px 1px -1px rgba(0, 0, 0, .04), 0 1px 3px 0 rgba(0, 0, 0, .08);
 }
 
-form .find{
+form .find {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
 
-form .find::placeholder{
-    color:  #0066b2;
+form .find::placeholder {
+    color: #0066b2;
 }
 
-form button{
+form button {
     background: #fff;
     outline: 0;
     border: 0;
     padding: 20px;
     margin-left: -5px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1), 0 2px 1px -1px rgba(0,0,0,.04), 0 1px 3px 0 rgba(0,0,0,.08);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1), 0 2px 1px -1px rgba(0, 0, 0, .04), 0 1px 3px 0 rgba(0, 0, 0, .08);
 }
 
-form button:focus{
+form button:focus {
     outline: 0;
 }
 
-form button i{
+form button i {
     color: #0066b2;
 }
 
-form button .search{
+form button .search {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -651,48 +683,49 @@ form button .search{
     line-height: 0;
     margin-top: 15px;
 }
+
 /* ************************************************************************
                         form-part css end
 /* ********************************************************************* */
 /* ************************************************************************
                         Plan-part css start
 /* ********************************************************************* */
-#plan-part{
+#plan-part {
     background: #f1f1f1;
     padding-top: 50px;
 }
 
-#plan-part .container{
+#plan-part .container {
     width: 800px;
 }
 
-#plan-part .plan{
+#plan-part .plan {
     text-align: center;
 }
 
-#plan-part .customer{
+#plan-part .customer {
     padding: 60px;
     background: #fff;
     transition: .4s;
 }
 
-#plan-part .customer:hover{
-    background:#0066b2;
+#plan-part .customer:hover {
+    background: #0066b2;
 }
 
-#plan-part .customer:hover h2{
+#plan-part .customer:hover h2 {
     color: #f1f1f1;
 }
 
-#plan-part .customer:hover a{
+#plan-part .customer:hover a {
     color: #fff;
 }
 
-#plan-part .customer:hover i{
+#plan-part .customer:hover i {
     color: #fff;
 }
 
-#plan-part .customer h2{
+#plan-part .customer h2 {
     color: #0b2d71;
     font-family: 'Open Sans', sans-serif;
     font-size: 35px;
@@ -702,12 +735,12 @@ form button .search{
     margin-top: 10px;
 }
 
-#plan-part .customer ul li{
+#plan-part .customer ul li {
     padding: 20px 0;
-    border-bottom: 1px solid  #0b2d71;
+    border-bottom: 1px solid #0b2d71;
 }
 
-#plan-part .customer ul li a{
+#plan-part .customer ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -715,7 +748,7 @@ form button .search{
     position: relative;
 }
 
-#plan-part .customer ul li a:after{
+#plan-part .customer ul li a:after {
     position: absolute;
     bottom: -5px;
     left: 0;
@@ -726,20 +759,21 @@ form button .search{
     transition: .4s;
 }
 
-#plan-part .customer ul li a:hover:after{
+#plan-part .customer ul li a:hover:after {
     width: 100%;
 }
 
-#plan-part .customer ul li i{
+#plan-part .customer ul li i {
     position: absolute;
     right: 20%;
     color: #0066b2;
     line-height: 1.5;
 }
+
 /* ************************************************************************
                         Plan-part css end
 /* ********************************************************************* */
-#title-part .title h2{
+#title-part .title h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -748,24 +782,25 @@ form button .search{
     padding-top: 100px;
 }
 
-#title-part .title h1{
+#title-part .title h1 {
     padding-top: 0;
 }
+
 /* ************************************************************************
                         footer-part css start
 /* ********************************************************************* */
-#footer-part{
+#footer-part {
     background: #0b2d71;
     color: #fff;
 }
 
-#footer-part .logo{
+#footer-part .logo {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 20px;
 }
 
-#footer-part .logo p{
+#footer-part .logo p {
     width: 640px;
     margin: 0 auto;
     padding-top: 50px;
@@ -774,23 +809,23 @@ form button .search{
     font-weight: 400;
 }
 
-#footer-part .part-two{
+#footer-part .part-two {
     padding: 65px 60px 40px;
 }
 
-#footer-part .part-two .part-left h3{
+#footer-part .part-two .part-left h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
 
-#footer-part .part-two .part-left ul li{
+#footer-part .part-two .part-left ul li {
     display: inline-block;
     margin-right: 30px;
     margin-top: 15px;
 }
 
-#footer-part .part-two .part-left ul li a{
+#footer-part .part-two .part-left ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -798,7 +833,7 @@ form button .search{
     position: relative;
 }
 
-#footer-part .part-two .part-left ul li a:after{
+#footer-part .part-two .part-left ul li a:after {
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -809,58 +844,59 @@ form button .search{
     transition: .5s;
 }
 
-#footer-part .part-two .part-left ul li a:hover:after{
+#footer-part .part-two .part-left ul li a:hover:after {
     background: #0066b2;
 }
 
-#footer-part .part-two .part-right{
+#footer-part .part-two .part-right {
     text-align: right;
 }
 
-#footer-part .part-two .part-right h3{
+#footer-part .part-two .part-right h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
 }
 
-#footer-part .part-two .part-right i{
+#footer-part .part-two .part-right i {
     font-size: 20px;
     margin-top: 15px;
     margin-left: 20px;
     transition: .4s;
 }
 
-#footer-part .part-two .part-right i:hover{
-    color: #0066b2;;
+#footer-part .part-two .part-right i:hover {
+    color: #0066b2;
+    ;
 }
 
-#footer-part .part-three{
+#footer-part .part-three {
     text-align: center;
     padding: 15px 0;
 }
 
-#footer-part .part-three p{
+#footer-part .part-three p {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
 }
 
-#footer-part .part-three .copyright{
+#footer-part .part-three .copyright {
     margin: 0 auto;
     width: 100%;
 }
 
-#footer-part .part-three ul{
+#footer-part .part-three ul {
     margin-top: -5px;
     margin-bottom: 0;
 }
 
-#footer-part .part-three ul li{
+#footer-part .part-three ul li {
     display: inline-block;
     margin-left: 20px;
 }
 
-#footer-part .part-three ul li a{
+#footer-part .part-three ul li a {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -868,7 +904,7 @@ form button .search{
     position: relative;
 }
 
-#footer-part .part-three ul li a:after{
+#footer-part .part-three ul li a:after {
     position: absolute;
     bottom: -3px;
     left: 0;
@@ -879,13 +915,292 @@ form button .search{
     transition: .5s;
 }
 
-#footer-part .part-three ul li a:hover:after{
+#footer-part .part-three ul li a:hover:after {
     width: 100%;
 }
 
-#footer-part .part-three .middle{
+#footer-part .part-three .middle {
     display: inline-block;
 }
+
 /* ************************************************************************
                         footer-part css end
 /* ********************************************************************* */
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@project-part css start@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* ************************Banner-part css start*************************** */
+#project-banner .project-banner {
+    background: url(../images/projects-img/projects-desktop.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+#project-banner .project-text {
+    margin-top: 80px;
+}
+
+#project-banner .project-text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #0b2d71;
+    text-align: center;
+}
+
+#project-banner .project-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #0b2d71;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#project-banner .project-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    width: 550px;
+    margin: 0 auto;
+}
+
+/* ************************explore-project css start*************************** */
+#explore-part h1 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#explore-part ul {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#explore-part ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#explore-part ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0066b2;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#explore-part ul li a:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .5s;
+}
+
+#explore-part ul li a:hover:after {
+    width: 100%;
+}
+
+/* ************************project css start*************************** */
+#project-part .project-one {
+    border: 1px solid #acacac;
+    height: 330px;
+    transition: .4s;
+}
+
+#project-part .project-one:hover {
+    box-shadow: 0 12px 17px 2px rgba(0, 0, 0, .06), 0 5px 22px 4px rgba(0, 0, 0, .06), 0 7px 8px -4px rgba(0, 0, 0, .1);
+}
+#project-part .project-one:hover img{
+    transform: scale(1.1);
+}
+#project-part .project-one .img {
+    width: 100.1%;
+    height: 60%;
+    overflow: hidden;
+}
+
+#project-part .project-one .img img {
+    width: 100%;
+    height: 100%;
+    transition: .4s;
+}
+
+#project-part .project-one .text {
+    text-align: center;
+    margin: 70px 0;
+}
+
+#project-part .project-one .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0066b2;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#project-part .project-one .text h2:after {
+    position: absolute;
+    bottom: -5px;
+    left: 120px;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #6fd3fa, #287897);
+    content: "";
+    transition: .5s;
+}
+
+#project-part .project-one .text h2:hover:after {
+    width: 32%;
+}
+
+#project-part .project-one .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: 000;
+    margin-top: 20px;
+}
+
+
+#project-part .project-two {
+    margin-top: 60px;
+}
+#project-part .project-two .text h2:after{
+    left: 80px;
+}
+#project-part .project-two .text h2:hover:after {
+    width: 55%;
+}
+#project-part .project-two .text p{
+    width: 330px;
+}
+
+
+#project-part .project-three {
+    margin-top: 60px;
+}
+#project-part .project-three .text h2:after{
+    left: 77px;
+}
+#project-part .project-three .text h2:hover:after {
+    width: 55%;
+}
+#project-part .project-three .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+#project-part .project-four {
+    margin-top: 60px;
+}
+#project-part .project-four .text h2:after{
+    left: 42px;
+}
+#project-part .project-four .text h2:hover:after {
+    width: 77%;
+}
+#project-part .project-four .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+#project-part .project-five {
+    margin-top: 60px;
+}
+#project-part .project-five .text h2:after{
+    left: 112px;
+}
+#project-part .project-five .text h2:hover:after {
+    width: 36%;
+}
+#project-part .project-five .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+#project-part .project-six {
+    margin-top: 60px;
+}
+#project-part .project-six .text h2:after{
+    left: 66px;
+}
+#project-part .project-six .text h2:hover:after {
+    width: 61%;
+}
+#project-part .project-six .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+#project-part .project-seven {
+    margin-top: 60px;
+}
+#project-part .project-seven .text h2:after{
+    left: 22px;
+}
+#project-part .project-seven .text h2:hover:after {
+    width: 88%;
+}
+#project-part .project-seven .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+#project-part .project-eight {
+    margin-top: 60px;
+}
+#project-part .project-eight .text h2:after{
+    left: 80px;
+}
+#project-part .project-eight .text h2:hover:after {
+    width: 54%;
+}
+#project-part .project-eight .text p{
+    width: 330px;
+    margin: 20px auto;
+}
+
+
+
+#video-part .project-img{
+    position: relative;
+}
+#video-part .project-img i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: #838181;
+    width: 70px;
+    height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 25px;
+}
+
+#video-part .project-img .plain:hover i {
+    color:#fff;
+    transform: translateX(3px);
+}
+
+#video-part .project-img .plain i {
+    font-size: 13px;
+    color: #0066b2;
+    transition: .4s;
+}
